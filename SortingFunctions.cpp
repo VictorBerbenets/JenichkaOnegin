@@ -179,5 +179,4 @@ void PrintSortingText(strings_inform* onegin_strings, buffer* onegin_text, const
     fprintf(OneginSort, "\n\n\n");
 
     ASSERT(fclose(OneginSort) == 0);
-
 }
