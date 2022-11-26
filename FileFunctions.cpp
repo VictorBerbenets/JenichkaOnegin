@@ -85,6 +85,8 @@ strings_inform* Constructor(buffer* onegin_text){
     
     strings_inform* onegin_strings = (strings_inform*) calloc(onegin_text->number_of_strings, sizeof(strings_inform));
 
+    ASSERT(onegin_strings != nullptr); 
+
     char* is_eof = onegin_text->buf;
 
     char* buf_pointer = onegin_text->buf;
@@ -124,6 +126,8 @@ strings_inform* Constructor(buffer* onegin_text){
     }
 
     onegin_strings = (strings_inform*) realloc(onegin_strings, sizeof(strings_inform) * not_empty_strings);
+
+    ASSERT(onegin_strings != nullptr); 
 
     onegin_text->number_of_strings = not_empty_strings;
 

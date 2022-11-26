@@ -22,7 +22,6 @@ void SortFromBeginning(strings_inform* onegin_strings, buffer* onegin_text) {
 
 void SortFromEnd(strings_inform* onegin_strings, buffer* onegin_text) {
 
-    
     ASSERT((bool)(onegin_strings != nullptr));
 
     ASSERT((bool)(onegin_text != nullptr));
@@ -113,12 +112,12 @@ int compare (char* string1, char* string2) {
     char* pt2 = string2;
 
     while (*pt1 && *pt2) {
-        
+
         while (notAlpha(*pt1)) {
 
             if (!*pt1) {
 
-                continue;
+                break; 
             }
             pt1++;
         }
@@ -127,7 +126,7 @@ int compare (char* string1, char* string2) {
 
             if (!*pt2) {
 
-                continue;
+                break; 
             }
 
             pt2++;
@@ -150,7 +149,7 @@ int compare (char* string1, char* string2) {
 bool notAlpha (char c) {
 
     if (strchr(forbidden_symbols, c) != nullptr) {
-        
+
         return true;
 
     }
