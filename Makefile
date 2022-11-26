@@ -6,7 +6,7 @@ CFLAGS =-c -Wall
 all : onegin
 
 onegin : main.o FileFunctions.o SortingFunctions.o
-	$(CC) FileFunctions.o  main.o -o onegin
+	$(CC) FileFunctions.o SortingFunctions.o main.o -o onegin
 
 main.o : main.cpp
 	$(CC) $(CFLAGS) main.cpp

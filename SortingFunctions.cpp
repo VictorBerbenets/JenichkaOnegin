@@ -7,8 +7,7 @@ void SortFromBeginning(strings_inform* onegin_strings, buffer* onegin_text) {
 
     ASSERT(onegin_text != nullptr);
 
-    size_t i = 0;
-    for (i = 0; i < onegin_text->number_of_strings; i++) {
+    for (size_t i = 0; i < onegin_text->number_of_strings; i++) {
 
         for (size_t j = i + 1; j < onegin_text -> number_of_strings; j++){
 
@@ -27,8 +26,6 @@ void SortFromEnd(strings_inform* onegin_strings, buffer* onegin_text) {
     ASSERT((bool)(onegin_strings != nullptr));
 
     ASSERT((bool)(onegin_text != nullptr));
-
-    char* replace = nullptr;
 
     for (size_t i = 0; i < onegin_text -> number_of_strings; i++) {
 
@@ -115,8 +112,6 @@ int compare (char* string1, char* string2) {
 
     char* pt2 = string2;
 
-    int counter = 0;
-
     while (*pt1 && *pt2) {
         
         while (notAlpha(*pt1)) {
@@ -154,7 +149,7 @@ int compare (char* string1, char* string2) {
 
 bool notAlpha (char c) {
 
-    if (strchr (forbidden_symbols, c) != nullptr) {
+    if (strchr(forbidden_symbols, c) != nullptr) {
         
         return true;
 
