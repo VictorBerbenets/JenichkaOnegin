@@ -7,7 +7,7 @@ int main() {
 
     buffer onegin_text;
 
-    ReadFile("onegin111.txt", &onegin_text);
+    ReadFile("onegin.txt", &onegin_text);
 
     onegin_strings = Constructor(&onegin_text);
 
