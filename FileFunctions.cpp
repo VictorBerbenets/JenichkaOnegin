@@ -36,17 +36,17 @@ void ReadFile(const char* name_file, buffer* onegin_text) {
 
     ASSERT(stream != nullptr);
 
-    long tekst_size = getFileSize(name_file);
+    size_t tekst_size = getFileSize(name_file) + 2;
 
-    fprintf(stderr, "filesize = %ld\n", tekst_size);
+    onegin_text -> buf = (char*) calloc(tekst_size, sizeof(char));
 
-    onegin_text -> buf = (char*) calloc(tekst_size + 2, sizeof(char));
+    ASSERT(onegin_text -> buf != nullptr);
 
-    ASSERT((bool)(onegin_text -> buf != nullptr));
+    onegin_text->symbols_in_buffer = tekst_size;
 
-    long number_of_simbols = 0;
+    size_t number_of_simbols = 0;
 
-    if ((number_of_simbols = fread(onegin_text -> buf, sizeof(char), tekst_size, stream)) != tekst_size) {
+    if ((number_of_simbols = fread(onegin_text -> buf, sizeof(char), tekst_size, stream)) != (tekst_size - 2)) {
 
         ASSERT(!feof(stream));
 
@@ -55,16 +55,12 @@ void ReadFile(const char* name_file, buffer* onegin_text) {
     ASSERT(onegin_text -> buf != nullptr);
 
     *(onegin_text -> buf + number_of_simbols)     = '\n';
+
     *(onegin_text -> buf + number_of_simbols + 1) = '\0';
-    //*(onegin_text -> buf + number_of_simbols + 2) = EOF;
-    
+   
     GetNumberOfStrings(onegin_text);
-    //fprintf(stderr, "filesize = %ld\n", tekst_size);
 
-    fclose(stream);
-
-    //fprintf(stderr, "Line %d\n", __LINE__);
-
+    ASSERT(fclose(stream) == 0);
 }
 
 void GetNumberOfStrings(struct buffer* onegin_text) {
@@ -75,7 +71,7 @@ void GetNumberOfStrings(struct buffer* onegin_text) {
     
     char* pt = onegin_text -> buf;
 
-    for ( ; *pt != EOF; ) { // не ЕOF а ориентироваться на колличество символов в буфере
+    for (size_t symbols = 0 ; symbols < onegin_text->symbols_in_buffer; symbols++) {  
         if (*pt == '\n'){
             onegin_text -> number_of_strings ++;
         }
@@ -85,19 +81,19 @@ void GetNumberOfStrings(struct buffer* onegin_text) {
 
 strings_inform* Constructor(buffer* onegin_text){
 
-    ASSERT(onegin_text -> buf != nullptr); 
+    ASSERT(onegin_text->buf != nullptr); 
     
-    strings_inform* onegin_strings = (strings_inform*) calloc(onegin_text -> number_of_strings, sizeof(strings_inform));
+    strings_inform* onegin_strings = (strings_inform*) calloc(onegin_text->number_of_strings, sizeof(strings_inform));
 
-    //fprintf(stderr, "Line %d\n", __LINE__);
+    char* is_eof = onegin_text->buf;
 
-    char* is_eof = onegin_text -> buf;
-
-    char* buf_pointer = onegin_text -> buf;
+    char* buf_pointer = onegin_text->buf;
 
     size_t not_empty_strings = 0;
 
-    for (size_t symbols_in_one_string = 0; *is_eof != EOF; is_eof++) {  //size_t symbols_in_one_string = 0; *is_eof != EOF; is_eof++
+    size_t symbols = 0;
+
+    for (size_t symbols_in_one_string = 0; symbols < onegin_text->symbols_in_buffer; is_eof++, symbols ++) {  
 
         if (*is_eof != '\n') {
 
@@ -109,7 +105,6 @@ strings_inform* Constructor(buffer* onegin_text){
         else {
 
             *is_eof = '\0';
-            //fprintf(stderr, "Line %d\n", __LINE__);
 
             onegin_strings[not_empty_strings].string_size = symbols_in_one_string;
 
@@ -127,14 +122,12 @@ strings_inform* Constructor(buffer* onegin_text){
             }       
         }       
     }
-    fprintf(stderr, "Line %d\n", __LINE__);
 
     onegin_strings = (strings_inform*) realloc(onegin_strings, sizeof(strings_inform) * not_empty_strings);
 
-    onegin_text -> number_of_strings = not_empty_strings;
+    onegin_text->number_of_strings = not_empty_strings;
 
     return onegin_strings;
-
 }
 
 void SkipSimbolsEndOfString(char** is_eof, char** buf_pointer) {
@@ -147,9 +140,5 @@ void SkipSimbolsEndOfString(char** is_eof, char** buf_pointer) {
 
         (*is_eof)--;
 
-        *buf_pointer += counter;
-    
+        *buf_pointer += counter;   
 }
-
-
-            //onegin_strings[not_empty_strings].string = (char*) calloc(onegin_strings[not_empty_strings].string_size, sizeof(char));

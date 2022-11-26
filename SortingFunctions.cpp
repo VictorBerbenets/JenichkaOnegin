@@ -1,21 +1,17 @@
 #include "onegin.h"
 
 
-const char arr[10] = {',', '.', '!', '?', ' '};
-const char tree[] = "»";
-
-const char* forbidden_symbols = arr;
-
-void SortFromBeginning(struct strings_inform* onegin_strings, struct buffer* onegin_text) {
+void SortFromBeginning(strings_inform* onegin_strings, buffer* onegin_text) {
 
     ASSERT(onegin_strings != nullptr);
 
     ASSERT(onegin_text != nullptr);
 
-    for (size_t i = 0; i < onegin_text -> number_of_strings; i++) {
-        //fprintf(stderr, "s = %s\n", onegin_strings[i].string);
+    size_t i = 0;
+    for (i = 0; i < onegin_text->number_of_strings; i++) {
+
         for (size_t j = i + 1; j < onegin_text -> number_of_strings; j++){
-            
+
             if (compare(onegin_strings[i].string, onegin_strings[j].string) > 0){
 
                 swap(&onegin_strings[i].string, &onegin_strings[j].string);
@@ -25,7 +21,7 @@ void SortFromBeginning(struct strings_inform* onegin_strings, struct buffer* one
 }
 
 
-void SortFromEnd(struct strings_inform* onegin_strings, struct buffer* onegin_text) {
+void SortFromEnd(strings_inform* onegin_strings, buffer* onegin_text) {
 
     
     ASSERT((bool)(onegin_strings != nullptr));
@@ -38,34 +34,61 @@ void SortFromEnd(struct strings_inform* onegin_strings, struct buffer* onegin_te
 
         for (size_t j = i + 1; j < onegin_text -> number_of_strings; j++){
 
-            //replace = IterateOverTheLines(onegin_strings[i].string, onegin_strings[j].string);
+            if (backward_compare(onegin_strings[i].string, onegin_strings[j].string) > 0){
 
-            fprintf(stderr, "i = %zd, j = %zd, replace = %s\n", i, j, replace);
-
-            fprintf(stderr, "onegin_strings[%zd].string= %s, onegin_strings[%zd].string = %s\n", i, onegin_strings[i].string, j, onegin_strings[j].string);
-            if (replace == nullptr) {
-
-                fprintf(stderr, "");
-
+                swap(&onegin_strings[i].string, &onegin_strings[j].string);
             }
-            else if (replace != onegin_strings[i].string) {
- 
-                onegin_strings[j].string = onegin_strings[i].string; 
+        }
+    }
+}
 
-                onegin_strings[i].string = replace;
-            }
+int backward_compare (char* string1, char* string2) {
 
-            //if (backward_strcmp(onegin_strings[i], onegin_strings[j]) > 0) swap (onegin_strings[i], onegin_strings[j]);
-        
-       //IterateOverTheLines(onegin_strings[i].string, onegin_strings[j].string);
+    ASSERT(string1 != nullptr);
 
+    ASSERT(string2 != nullptr);
+
+    int size1 = strlen(string1);
+
+    int size2 = strlen(string2);
+
+    char* pt1 = string1 + size1;
+
+    char* pt2 = string2 + size2;
+
+    while (size1 > 0 && size2 > 0) {
+
+        while (notAlpha(*pt1) && size1 > 0) {
+
+            size1--;
+            pt1--;
+        }
+
+        while (notAlpha(*pt2) && size2 > 0) {
+
+            size2--;
+            pt2--;
+        }
+
+        if (*pt1 == *pt2) {
+            
+            size1--;
+
+            size2--;
+
+            pt1--;
+
+            pt2--;
+        }
+
+        else {
+
+            break;
         }
     }
 
-    PrintSortingText(onegin_strings, onegin_text);
-
+    return *pt1 - *pt2;
 }
-
 
 void swap (char** string1, char** string2) {
 
@@ -94,93 +117,42 @@ int compare (char* string1, char* string2) {
 
     int counter = 0;
 
-    //fprintf(stderr, "string1 = <%s>;   string2 = <%s>\n", string1, string2);
-
-
-    while (true) {
-
+    while (*pt1 && *pt2) {
+        
         while (notAlpha(*pt1)) {
-            //fprintf(stderr, "*pt1 = %c\n", *pt1);
-            pt1 ++;
 
             if (!*pt1) {
-                break;
+
+                continue;
             }
+            pt1++;
         }
 
         while (notAlpha(*pt2)) {
-            //fprintf(stderr, "*pt1 = %c\n", *pt1);
-            pt2 ++;
 
             if (!*pt2) {
-                break;
-            }
-        }
 
-        if (*pt1 != *pt2) {
+                continue;
+            }
+
+            pt2++;
+        }
+        if (*pt1 == *pt2) {
 
             pt1++;
 
             pt2++;
         }
-
         else {
 
             break;
         }
-
-
     }
 
     return *pt1 - *pt2;
-
-    // do {
-
-    // // *pt1 = tolower(*pt1);
-
-    // // *pt2 = tolower(*pt2);
-    
-    // if (counter > 0) {
-
-    //     pt1 ++; 
-
-    //     pt2 ++;
-
-    // }
-    // else {
-
-    //     counter++;
-    // }
-
-    // while (notAlpha(*pt1)) {
-    //     //fprintf(stderr, "*pt1 = %c\n", *pt1);
-    //     pt1 ++;
-    // }
-
-    // while (notAlpha(*pt2)) {
-    //     //fprintf(stderr, "*pt1 = %c\n", *pt1);
-    //     pt2 ++;
-    // }
-    // // while (!isalpha(*pt1)) {
-    // //     //fprintf(stderr, "notalpha\n");
-    // //     pt1 ++;
-    // // }
-
-    // // while (!isalpha(*pt2)) {
-    // //     //fprintf(stderr, "notalpha\n");
-    // //     pt2 ++;
-    // // }
-
-    // } while(*pt1 && *pt2 && (*(pt1) == *(pt2)));
-
-    // //fprintf(stderr, "string1 = <%s>;   string2 = <%s>\n", string1, string2);
-
-    // return *pt1 - *pt2;
 }
 
 bool notAlpha (char c) {
-
-    //fprintf(stderr, "c = %c\n", c);
 
     if (strchr (forbidden_symbols, c) != nullptr) {
         
@@ -191,79 +163,19 @@ bool notAlpha (char c) {
     return false;
 }
 
-//cmit
+void PrintSortingText(strings_inform* onegin_strings, buffer* onegin_text, const char* where_to_sort) {
 
-// backward compare. strcmp => backward_strcmp
+    ASSERT(onegin_strings != nullptr);
 
-// int IterateOverTheLines(char* string1, char* string2){
-
-    // ASSERT(string1 != nullptr);
-
-    // ASSERT(string2 != nullptr);
-
-//     size_t size_string1 = str_length(string1);
-//     size_t size_string2 = str_length(string2);
-
-//     char* pt1 = string1 + size_string1 - 1;
-//     char* pt2 = string2 + size_string2 - 1;
-
-//     //fprintf(stderr, "*pt1 = %c\n", *pt1);
-//     fprintf(stderr, "*pt2 = %c\n", *pt2);
-
-//     // while (pt1 != string1 || pt2 != string2)
-//     // {
-        
-
-
-
-//     //     pt1--;
-//     //     pt2--;
-//     // }
-
-
-
-//     for ( ; size_string1 >= 0 && size_string2 >= 0 ; pt1 --, pt2 --, size_string1 --, size_string2 --) {
-
-//         for( ; (unsigned char) !isalpha(*pt1) && size_string1 >= 0 ; ) {
-
-//             pt1 --;
-//             size_string1 --;
-//             //fprintf(stderr, "*pt1 = %c\n", *pt1);
-//         }
-
-//         for( ; !isalpha((unsigned char) *pt2) && size_string2 >= 0; ) {
-
-//             pt2 --;
-//             size_string2 --;
-//             //fprintf(stderr, "*pt2 = %c\n", *pt2);
-//         }
-
-//         if (tolower(*pt1) != tolower(*pt2)) {
-
-//             // if (*pt1 >= *pt2) {
-
-//             //     return string1;
-//             // }
-
-//             // return string2;          
-        
-//             return *pt1 - *pt2;
-//         }
-
-//     }
-
-//     return 0;
-// }
-
-// В хедере char forbidde_symbols[] = "./\}|{}{- ";
-
-void PrintSortingText(struct strings_inform* onegin_strings, struct buffer* onegin_text) {
-
-    ASSERT((bool)(onegin_strings != nullptr));
-
-    ASSERT((bool)(onegin_text != nullptr));
+    ASSERT(onegin_text != nullptr);
 
     FILE* OneginSort = fopen("SortOnegin.txt", "a");
+
+    ASSERT(OneginSort != nullptr);
+
+    fprintf(OneginSort, "***********************************************************\n");
+    fprintf(OneginSort, "             %s\n", where_to_sort);
+    fprintf(OneginSort, "***********************************************************\n\n\n");
 
     for (size_t string_number = 0; string_number < onegin_text -> number_of_strings; string_number ++) {
 
@@ -272,6 +184,6 @@ void PrintSortingText(struct strings_inform* onegin_strings, struct buffer* oneg
 
     fprintf(OneginSort, "\n\n\n");
 
-    fclose(OneginSort);
+    ASSERT(fclose(OneginSort) == 0);
 
 }

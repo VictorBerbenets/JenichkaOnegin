@@ -1,14 +1,17 @@
 #ifndef Onegin_proga
 #define Onegin_proga
 
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <sys/stat.h>
 #include <sys/types.h>
-#include <locale.h>
 #include <ctype.h>
 #include "strings.h"
+
+const char forbidden_symbols[20] = {',', '.', '!', '?', ' ', '(', ')', '\'', '{', '}', ';', ':'};
+
 
 #define ASSERT(expression) \
 \
@@ -25,6 +28,8 @@ struct buffer{ // Text
     char* buf;
 
     size_t number_of_strings;
+
+    size_t symbols_in_buffer;
 };
 
 
@@ -34,6 +39,9 @@ struct strings_inform{
 
     size_t string_size;
 };
+
+
+
 
 strings_inform* Constructor(buffer* onegin_text);
 
@@ -47,11 +55,13 @@ void SkipSimbolsEndOfString(char** is_eof, char** buf_pointer);
 
 void SortFromBeginning(strings_inform* onegin_strings, buffer* onegin_text);
 
-void PrintSortingText(strings_inform* onegin_strings, buffer* onegin_text);
+void PrintSortingText(strings_inform* onegin_strings, buffer* onegin_text, const char* where_to_sort);
 
 void SortFromEnd(strings_inform* onegin_strings, buffer* onegin_text);
 
 int compare (char* string1, char* string2);
+
+int backward_compare (char* string1, char* string2);
 
 bool notAlpha (char c);
 
