@@ -42,7 +42,6 @@ struct strings_inform{
 
 
 
-
 strings_inform* Constructor(buffer* onegin_text);
 
 long getFileSize(const char *file);
@@ -59,7 +58,7 @@ void PrintSortingText(strings_inform* onegin_strings, buffer* onegin_text, const
 
 void SortFromEnd(strings_inform* onegin_strings, buffer* onegin_text);
 
-int compare (char* string1, char* string2);
+int compare (const void* string1, const void* string2);
 
 int backward_compare (char* string1, char* string2);
 
@@ -68,6 +67,5 @@ bool notAlpha (char c);
 void Destroyer(strings_inform* onegin_strings, buffer*  onegin_text);
 
 void swap (char** string1, char** string2);
-
 
 #endif
