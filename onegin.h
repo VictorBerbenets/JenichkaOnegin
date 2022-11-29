@@ -10,7 +10,8 @@
 #include <ctype.h>
 #include "strings.h"
 
-const char forbidden_symbols[20] = {',', '.', '!', '?', ' ', '(', ')', '\'', '{', '}', ';', ':'};
+const char forbidden_symbols[30] = {'1', '2', '3', '4', '5', '6', '7', '8', '9', '0', ',', '.', '!', '?', ' ', '(', ')', '\'', '{', '}', ';', ':', '\"'};
+
 
 
 #define ASSERT(expression) \
@@ -44,7 +45,9 @@ struct strings_inform{
 
 strings_inform* Constructor(buffer* onegin_text);
 
-long getFileSize(const char *file);
+void F(buffer* onegin_text, strings_inform** onegin_strings);
+
+long GetFileSize(const char *file);
 
 void ReadFile(const char* name_file, buffer* onegin_text);
 
@@ -54,19 +57,21 @@ void SortFromBeginning(strings_inform* onegin_strings, buffer* onegin_text);
 
 void PrintSortingText(strings_inform* onegin_strings, buffer* onegin_text, const char* where_to_sort);
 
+void PutStringsInFile(FILE** OneginSort, buffer* onegin_text);
+
 void SortFromEnd(strings_inform* onegin_strings, buffer* onegin_text);
 
-int compare (const void* string1, const void* string2);
+int Compare (const void* string1, const void* string2);
 
-int backward_compare (const void* string1, const void* string2);
+int Backward_Compare (const void* string1, const void* string2);
 
 void Destroyer(strings_inform* onegin_strings, buffer*  onegin_text);
 
 void PrintOriginalText(buffer* onegin_text);
 
-void swap (char** string1, char** string2);
+bool NotAlpha (char c);
 
-bool notAlpha (char c);
+int SkipString(char* string);
 
 
 #endif

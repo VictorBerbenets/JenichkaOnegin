@@ -3,228 +3,6 @@
 ***********************************************************
 
 
-"When will the devil come for you?"''
-{100}
-{101}
-{102}
-{103}
-{104}
-{105}
-{106}
-{107}
-{108}
-{109}
-10 Magazine (1818) edited by A. Izmaylov.
-{110}
-{111}
-{112}
-{113}
-{114}
-{115}
-{116}
-{117}
-{118}
-{119}
-11 Russian poet and translator from the French.
-{120}
-{121}
-{122}
-{123}
-{124}
-{125}
-{126}
-{127}
-{128}
-{129}
-12 French poet (1755-1814). Author of Poésies Erotiques.
-{130}
-{131}
-{132}
-{133}
-{134}
-{135}
-{136}
-{137}
-{138}
-{139}
-13 Evgeny Baratynsky (1800-1844). Poet and friend of Pushkin.
-{140}
-{141}
-{142}
-{143}
-{144}
-{145}
-{146}
-{147}
-{148}
-{149}
-{150}
-{151}
-{152}
-{153}
-{154}
-{155}
-{156}
-{157}
-{158}
-{159}
-{160}
-{161}
-{162}
-{163}
-{164}
-{165}
-{166}
-{167}
-{168}
-{169}
-{170}
-{171}
-{172}
-{173}
-{174}
-{175}
-{176}
-{177}
-{178}
-{179}
-{180}
-{181}
-{182}
-{183}
-{184}
-{185}
-{186}
-{187}
-{188}
-{189}
-{190}
-{191}
-{192}
-{193}
-{194}
-{195}
-{196}
-{197}
-{198}
-{199}
-1 Stanza left incomplete by Pushkin.
-1 Stanzas I to VI were discarded by Pushkin.
-1 Vasily Levshin (1746-1826), writer on gardening and agriculture.
-{200}
-{201}
-{202}
-{203}
-{204}
-{205}
-{206}
-{207}
-{208}
-{209}
-{210}
-{211}
-{212}
-{213}
-{214}
-{215}
-{216}
-{218}
-{219}
-{220}
-{221}
-{222}
-{223}
-{224}
-{225}
-{226}
-{227}
-{228}
-{229}
-{230}
-{231}
-2 Count F. P. Tolstoy (1783-1873), well-known artist.
-2 Heroine of Zhukovsky's poem of the same name.
-2 Stanzas VIII and IX and XXXIX were discarded by Pushkin.
-{35}
-{36}
-{37}
-{38}
-{39}
-3 A statuette of Napoleon.
-3 Julie, ou la nouvelle Héloise. by Rousseau, 1761.
-3 See Chapter Three, note 13.
-{40}
-{41}
-{42}
-{43}
-{44}
-{45}
-{46}
-{47}
-{48}
-{49}
-4 Hero of Mathilde, by Sophie Cottin, 1805.
-4 Poet and acquaintance of Pushkin.
-4 See note 1 to Chapter Five.
-{50}
-{51}
-{52}
-{53}
-{54}
-{55}
-{56}
-{57}
-{58}
-{59}
-5 Lover of Valérie, by Madame de Krudener, 1803.
-5 Satiric poem by Ivan Dimitriev, 1795. The reference is  summarizing
-{60}
-{61}
-{62}
-{63}
-{64}
-{65}
-{66}
-{67}
-{68}
-{69}
-6 Delphine, by Madame de Staël, 1805.
-6 Stanza discarded by Pushkin, also stanza XXXVIII.
-{70}
-{71}
-{72}
-{73}
-{74}
-{75}
-{76}
-{77}
-{78}
-{79}
-7 Dominique de Pradt (1759-1837), voluminous French political writer.
-7 Melmoth the Wanderer, by C. R. Mathurin, 1820.
-{80}
-{81}
-{82}
-{83}
-{84}
-{85}
-{86}
-{87}
-{88}
-{89}
-8 August Lafontaine (1758-1851), German novelist of family life.
-8 Jean Sbogar, by Charles Nodier, 1818.
-{90}
-{91}
-{92}
-{93}
-{94}
-{95}
-{96}
-{97}
-{98}
-{99}
-9Lasciate  ogni  speranza, voi ch'entrate.  Our modest  author  has
 A backward look is fraught with danger;
 A ball: the joy of every guest!
  Abandon hope for evermore.
@@ -317,6 +95,7 @@ A sledded coach, for years forsaken,
 As, lovingly, in his confession,
 A sorry state of things, it's true!
 As soon as he appears, discussion
+3 A statuette of Napoleon.
 A sudden clatter!... blood was curdled...
 As with old friends, she craves diversion
 At feasts, though, full of pert aggression,
@@ -334,6 +113,7 @@ At least you then showed for my years
 At once Anisia came to greet her,
  At the Larins'!''  But how mysterious.
 At this midnight of my condition,
+8 August Lafontaine (1758-1851), German novelist of family life.
 Away inside that unassuming
 Bacchante-like, her flighty prancing;
 Back to his regiment the Lancer,
@@ -456,6 +236,7 @@ Conjecture found unending matter:
  Could I be happy circumscribing
  Could I just see the house, I wonder?''
 Could it not be that by convention
+2 Count F. P. Tolstoy (1783-1873), well-known artist.
 Dawn comes in mist and chill; no longer
 Day faded; on the table, glowing,
 Days when I came to flower serenely
@@ -463,11 +244,13 @@ Deaf to her sister's intervention,
 Dear Tanya, you're condemned to perish;
 Decreed in highest court for ever...
 Deep down, an epigram is stirring
+6 Delphine, by Madame de Staël, 1805.
 Departure date's long overtaken;
 Deserving object: there can be
 Diana's breast, the cheeks of Flora,
  Dmitriev
 Dogs, howling, rushed in her direction...
+7 Dominique de Pradt (1759-1837), voluminous French political writer.
 Don Juan's and the Giaour's creator,
 Don't let a ghost be your bear-leader,
 Down there, by slow degrees, the stream
@@ -502,6 +285,7 @@ Europe's most finely chiselled wares
 Even at home his occupation
 Evening, and darkening sky, and waters
 Evgeny!  Ah!'' Tatyana, fleeting
+13 Evgeny Baratynsky (1800-1844). Poet and friend of Pushkin.
 Evgeny echoed him:  My second?
 Evgeny, full of inward laughter,
 Evgeny, hating litigation,
@@ -537,6 +321,7 @@ For such am I. When you were speaking
  For then, Onegin, I was younger,
 For what charade is he apparelled?
 Freed from its dripping cork, the bottle
+12 French poet (1755-1814). Author of Poésies Erotiques.
 Friend of my heart, be at my side,
 Friends, all this meant was: I've a date
 Friendship, as I must own to you,
@@ -612,6 +397,8 @@ Her husband enters, thus concluding
 He rings at once, and what a scurry!
 Her loving spouse with approbation
 He roamed the world, his lyre behind him;
+2 Heroine of Zhukovsky's poem of the same name.
+4 Hero of Mathilde, by Sophie Cottin, 1805.
 Her passion burns with stronger powder
 Her tender touch had never fingered
 He's always with her: either seated
@@ -675,41 +462,7 @@ How soft his glance, or at discretion
 How well he donned new shapes and sizes 
 Hurrah! let's start congratulating
 Hussars on leave are racing hither
-I
-I
-I
-I
-I
-II
-II
-II
-II
-II
-II
-II
-III
-III
-III
-III
-III
-III
-III
-(I, II, III, IV, V, VI,1) VII
  I?''  Saturday. The invitation
-IV
-IV
-IV
-IV
-IV
-IV
-IV
-IX
-IX
-IX
-IX
-IX
-IX
-(IX,2) X
 I acted thoughtlessly or not:
  I am in love,'' Tatyana's wailing
  I am in love; leave me alone.''
@@ -891,35 +644,17 @@ I would have found a friend, another,
 I would have had the indiscretion
 I write, my heart has ceased its pining,
  I write to you  no more confession
+8 Jean Sbogar, by Charles Nodier, 1818.
+3 Julie, ou la nouvelle Héloise. by Rousseau, 1761.
 Just before dinner, from his labours
 Just facing Tanya's where they're sitting;
  Just half a glass more... that will do...
 Just let yourself be your whole care,
 Killed!... At this frightful word a-quiver,
-L
-L
-L
-L
-LI
-LI
-LI
-LI
-LII
-LII
-LIII
-LIII
-LIV
-LIV
-LIX
-LV
-LV
-LVI
-LVII
-LVIII
-LX
 Ladies came over, crossed to meet her,
 Ladies of such a cast, I think,
  La morale est dans la nature des choses.
+9Lasciate  ogni  speranza, voi ch'entrate.  Our modest  author  has
  La, sotto giorni nubilosi e brevi.
  Last night, what made you fly so early?''
 Left-handed from the habitation
@@ -957,9 +692,11 @@ Lost in our backwoods habitation
 Louder and louder sounds the wrangle:
 Lovelace, or Grandison, or neither;
 Love passed, the Muse appeared, the weather
+5 Lover of Valérie, by Madame de Krudener, 1803.
 Love's frantic torments went on beating
 Love tyrannises all the ages;
 Madame de Staël, Bichat,13 Tissot,14
+10 Magazine (1818) edited by A. Izmaylov.
  Maidens, pretty maidens all,
 Maidservants on the beds just now
  Make way, make way,'' goes up the shout;
@@ -972,6 +709,7 @@ Meanwhile, attired for morning strolling
 Meanwhile my novel's opening section
 Meanwhile the news of Eugene coming
 Meanwhile with pain her soul was girdled,
+7 Melmoth the Wanderer, by C. R. Mathurin, 1820.
 Melmoth,7 whose roaming never ceases,
 Melpomene wails long and loud,
 Moments of silence, quite unbroken;
@@ -1152,6 +890,7 @@ Pikhtín, of the Hussars, was here;
 Pistols are out, they gleam, the hammer
 Pleasant, in spite of its compression,
 Please follow me. And here's the inner
+4 Poet and acquaintance of Pushkin.
 Poets, I'll say in this connection,
 Poor Lensky! Set aside for weeping,
 Poor Lensky! where the tomb is bounded
@@ -1183,14 +922,18 @@ Right at the outset of my story
 Risen with earliest rays of dawning,
 Rousseau (forgive a short distraction)
 Russian pancakes were always served;
+11 Russian poet and translator from the French.
 Russia's Terpsichore, shall never
 Russia's old glories and their gleams,
 Saint Petersburg's fine flower was there 
+5 Satiric poem by Ivan Dimitriev, 1795. The reference is  summarizing
 Sbogar,8 mysterious through and through,
 Schiller and Goethe had refined him,
 Searching the table exegetic
+3 See Chapter Three, note 13.
 Seeing Vladimir had defected,
 Seeing herself as a creation 
+4 See note 1 to Chapter Five.
 Semyón Petróvich, mean and glum,
 Shade-like, in purposeless obsession
 Shall I depict with expert knowledge
@@ -1258,6 +1001,10 @@ So, verse and prose, they came together.
 So went his sermon. Almost dying,
 So you, inspired Yazýkov,4 sobbing
 Spoilt by the habit of indulgence,
+6 Stanza discarded by Pushkin, also stanza XXXVIII.
+1 Stanza left incomplete by Pushkin.
+1 Stanzas I to VI were discarded by Pushkin.
+2 Stanzas VIII and IX and XXXIX were discarded by Pushkin.
 Still as he was? has he stopped prancing?
 Still blazing with resentment's fuel,
  Still for ever, fare thee well.
@@ -1285,7 +1032,6 @@ Tanya's undressed, and lies in bed.
 Tanya thanks each one with a phrase.
 Tanya to all her kin. My sorrow
 Tanya today goes hurrying out
-Tatyana3 was her name... I own it,
 Tatyana asked. The children all
 Tatyana breathed on the cold pane,
 Tatyana dear, with you I'm weeping:
@@ -1327,6 +1073,7 @@ Tatyana's name day celebration.
 Tatyana's rites are not for me.
 Tatyana struggles to run out 
 Tatyana turned with thirsting soul:
+Tatyana3 was her name... I own it,
 Tatyana watched the moon, and floated
 Tatyana went with them, and sped
  Tell me, our neighbours, are they thriving?
@@ -1411,9 +1158,9 @@ There sings the nightingale, spring's lover,
 There's powdery snow up to her knees;
 There's vacancies in plenty there.''
 There too, he honoured, hotly weeping,
-There was  ,10 so notorious
 There was a period when cold-blooded
 There was a pine-branch downward straying
+There was  ,10 so notorious
 There, with epigrammatic neatness,
 There you're entirely sure of finding
 The rustic sage, in that apartment,
@@ -1477,35 +1224,7 @@ Two weeks the matchmaker was plying
 Uncle, in bed, and near to dying,
 Unforced, as conversation passed,
 Up to the porch our hero's driven:
-V
-V
-V
-V
-V
-V
-V
-VI
-VI
-VI
-VI
-VI
-VI
-VI
-VII
-VII
-VII
-VII
-VII
-VII
-VII
-VIII
-VIII
-VIII
-VIII
-VIII
-VIII
-VIII
-(VIII,2 IX,) X
+1 Vasily Levshin (1746-1826), writer on gardening and agriculture.
 Vesper is met by crow of cock 
 Vladimir Lensky. Quick, let's dine!
 Vladimir Lensky, whose creator
@@ -1562,6 +1281,7 @@ When out to burst a rival's bubble,
 When progress and amelioration
 When we draw a fellow in,
 When we've retreated to the banner
+"When will the devil come for you?"''
 Where are you? come  and my own right
 Where is the fire that once ignited,
 Where to, God knows. The trail is dead.
@@ -1603,291 +1323,6 @@ With spelling scrambled to perdition,
 With that, in tears, and quite worn out,
 With womankind, the less we love them,
 Worse luck, Larina crawled; the employment
-X
-X
-X
-X
-X
-X
-XI
-XI
-XI
-XI
-XI
-XI
-XI
-XI
-XII
-XII
-XII
-XII
-XII
-XII
-XII
-XII
-XIII
-XIII
-XIII
-XIII
-XIII
-XIII
-XIII
-(XIII, XIV,) XV
-XIV
-XIV
-XIV
-XIV
-XIV
-XIV
-XIV
-XIX
-XIX
-XIX
-XIX
-XIX
-XIX
-XIX
-XIX
-XL
-XL
-XL
-XL
-XL
-XL
-XLI
-XLI
-XLI
-XLI
-XLI
-XLI
-XLII
-XLII
-XLII
-XLII
-XLII
-XLIII
-XLIII
-XLIII
-XLIII
-XLIII
-XLIII7
-XLIV
-XLIV
-XLIV
-XLIV
-XLIV
-XLIV
-XLIX
-XLIX
-XLIX
-XLIX
-XLV
-XLV
-XLV
-XLV
-XLV
-XLV
-XLVI
-XLVI
-XLVI
-XLVI
-XLVI
-XLVII
-XLVII
-XLVII
-XLVII
-XLVII
-XLVIII
-XLVIII
-XLVIII
-XLVIII
-XV
-XV
-XV
-XV
-XV
-XV
-XVI
-XVI
-XVI
-XVI
-XVI
-XVI
-XVI
-XVII
-XVII
-XVII
-XVII
-XVII
-XVII
-XVII
-XVIII
-XVIII
-XVIII
-XVIII
-XVIII
-XVIII
-XVIII
-XVIII
-(XV, XVI,2) XVII
-XX
-XX
-XX
-XX
-XX
-XX
-XX
-XX
-XXI
-XXI
-XXI
-XXI
-XXI
-XXI
-XXI
-XXI
-XXII
-XXII
-XXII
-XXII
-XXII
-XXII
-XXII
-XXII
-XXIII
-XXIII
-XXIII
-XXIII
-XXIII
-XXIII
-XXIII
-XXIII
-XXIV
-XXIV
-XXIV
-XXIV
-XXIV
-XXIV
-XXIV
-XXIV
-XXIX
-XXIX
-XXIX
-XXIX
-XXIX
-XXIX
-XXIX
-XXIX
-XXV
-XXV
-XXV
-XXV
-XXV
-XXV
-XXV
-XXV
-XXVI
-XXVI
-XXVI
-XXVI
-XXVI
-XXVI
-XXVI
-XXVI
-XXVII
-XXVII
-XXVII
-XXVII
-XXVII
-XXVII
-XXVII
-XXVII
-XXVIII
-XXVIII
-XXVIII
-XXVIII
-XXVIII
-XXVIII
-XXVIII
-XXVIII
-XXX
-XXX
-XXX
-XXX
-XXX
-XXX
-XXX
-XXX
-XXXI
-XXXI
-XXXI
-XXXI
-XXXI
-XXXI
-XXXI
-XXXI
-XXXII
-XXXII
-XXXII
-XXXII
-XXXII
-XXXII
-XXXII
-XXXII
-XXXIII
-XXXIII
-XXXIII
-XXXIII
-XXXIII
-XXXIII
-XXXIII
-XXXIII
-XXXIV
-XXXIV
-XXXIV
-XXXIV
-XXXIV
-XXXIV
-XXXIV
-XXXIV
-XXXIX
-XXXIX
-XXXIX
-XXXIX
-(XXXIX,2) XL
-(XXXIX, XL, XLI,) XLII
-XXXV
-XXXV
-XXXV
-XXXV
-XXXV
-XXXV
-XXXV
-XXXV
-XXXVI
-XXXVI
-XXXVI
-XXXVI
-XXXVI
-XXXVI
-XXXVI
-XXXVI6
-XXXVII
-XXXVII
-XXXVII
-XXXVII
-XXXVII
-XXXVII
-XXXVII
-XXXVII7
-XXXVIII
-XXXVIII
-XXXVIII
-XXXVIII
-XXXVIII
-XXXVIII
-(XXXVIII,2) XXXIX
-(XXXVIII) XXXIX
 Yes, spleen was waiting like a sentry,
 Yes, youth divines, in giddy madness,
 Yet Tanya's note made its impression
@@ -3144,7 +2579,6 @@ flows and reverberates. Reciting,
 fly to my corner like a dart,
 foes, friends and loves, their voice is stilled.
 folly for me to interfere
-for 1808: his obligations
 for God's sake, that will do. But, brother,
 for Olga, on the spreading lawn,
 for Olga's beauty, Lensky gives
@@ -3172,6 +2606,7 @@ for him all sham has found rejection,
 for him a lofty stair. His shade,
 for him, at night, before the indulgence
 for him, the objective on life's chart
+for 1808: his obligations
 for his old courses to be changed.
 for honour, a straightforward pride.
 for hours alone; she walked and walked...
@@ -5960,614 +5395,22 @@ you won't find that quite so much catch...
 
 it was goodbye, Monsieur l'Abbé.
 over the Petersburg pavé 
-kept asking: "shall I live to see"...''
-"When will the devil come for you?"''
-{100}
-{200}
-{110}
-{210}
-{120}
-{220}
-7 Melmoth the Wanderer, by C. R. Mathurin, 1820.
-{130}
-{230}
-{140}
-{40}
-{150}
-{50}
-{160}
-{60}
-{170}
-{70}
-{180}
-{80}
-{190}
-{90}
-{101}
-{201}
-{111}
-{211}
-{121}
-{221}
-{131}
-{231}
-{141}
-{41}
-{151}
-{51}
-{161}
-3 Julie, ou la nouvelle Héloise. by Rousseau, 1761.
-{61}
-{171}
-{71}
-{181}
-{81}
-{191}
-{91}
-but I'm allergic to the North...1
-the jug of bilberry wine is seen.1
-in order daily, chez Véry,1
-{102}
-{202}
-{112}
-{212}
-with amber pipes from Tsaregrad;12
-{122}
-{222}
-{132}
-{142}
-{42}
-{152}
-{52}
-{162}
-{62}
-{172}
-{72}
-{182}
-{82}
-{192}
-{92}
-and melancholy as Svetlana,2
-shine out and bring the world to bliss.  2
-{103}
-{203}
-5 Lover of Valérie, by Madame de Krudener, 1803.
-{113}
-{213}
-3 See Chapter Three, note 13.
-could not conceive how solemn Grimm13
-{123}
-{223}
-{133}
-{143}
-{43}
-{153}
-{53}
-{163}
-{63}
-{173}
-{73}
-{183}
-{83}
-{193}
-{93}
-the lover of Julie Wolmar,3
-her steppeland charms into a rout.3
-{104}
-{204}
-{114}
-{214}
-Madame de Staël, Bichat,13 Tissot,14
-{124}
-{224}
-{134}
-{144}
-{44}
-{154}
-{54}
-{164}
-{64}
-{174}
-{74}
-{184}
-{84}
-{194}
-{94}
-He looks, and answers:  Agafon.''4
-{105}
-{205}
-6 Delphine, by Madame de Staël, 1805.
-4 Hero of Mathilde, by Sophie Cottin, 1805.
-{115}
-{215}
-he read of course the sceptic Bayle15
-{125}
-{225}
-{135}
-{35}
-{145}
-{45}
-{155}
-{55}
-{165}
-{65}
-{175}
-{75}
-{185}
-{85}
-{195}
-{95}
-I too  when I recall Svetlana5
-and Malek Adel,4 de Linar,5
-{106}
-{206}
-{116}
-{216}
-and all the works of Fontanelle16 
-{126}
-{226}
-{136}
-{36}
-{146}
-{46}
-{156}
-{56}
-{166}
-{66}
-{176}
-{76}
-{186}
-{86}
-{196}
-{96}
-XXXVI6
-the fools who sparkle far and wide,6
-Clarissa, Julie, or Delphine6 
-He was a good and simple barin;6
-{107}
-{207}
-{117}
-{127}
-{227}
-{137}
-{37}
-{147}
-{47}
-{157}
-{57}
-{167}
-{67}
-{177}
-{77}
-{187}
-{87}
-{197}
-{97}
-XLIII7
-XXXVII7
-it had its epigram-potential7...
-{108}
-{208}
-{118}
-{218}
-8 Jean Sbogar, by Charles Nodier, 1818.
-{128}
-{228}
-{138}
-{38}
-{148}
-{48}
-{158}
-{58}
-{168}
-{68}
-{178}
-{78}
-{188}
-{88}
-{198}
-{98}
-and the derivative Knyazhnín:8
-{109}
-{209}
-{119}
-{219}
-{129}
-{229}
-{139}
-{39}
-{149}
-{49}
-{159}
-{59}
-{169}
-{69}
-{179}
-{79}
-{189}
-{89}
-{199}
-{99}
-I
-I
-I
-I
-I
-LIII
-LIII
-XLIII
-XLIII
-XLIII
-XLIII
-XLIII
-LVIII
 6 Stanza discarded by Pushkin, also stanza XXXVIII.
-VIII
-VIII
-VIII
-VIII
-VIII
-VIII
-VIII
-XLVIII
-XLVIII
-XLVIII
-XLVIII
-XVIII
-XVIII
-XVIII
-XVIII
-XVIII
-XVIII
-XVIII
-XVIII
-XXVIII
-XXVIII
-XXVIII
-XXVIII
-XXVIII
-XXVIII
-XXVIII
-XXVIII
-XXXVIII
-XXXVIII
-XXXVIII
-XXXVIII
-XXXVIII
-XXXVIII
-XIII
-XIII
-XIII
-XIII
-XIII
-XIII
-XIII
-XXIII
-XXIII
-XXIII
-XXIII
-XXIII
-XXIII
-XXIII
-XXIII
-XXXIII
-XXXIII
-XXXIII
-XXXIII
-XXXIII
-XXXIII
-XXXIII
-XXXIII
-LII
-LII
-XLII
-XLII
-XLII
-XLII
-XLII
-(XXXIX, XL, XLI,) XLII
-LVII
-VII
-VII
-VII
-VII
-VII
-VII
-VII
-XLVII
-XLVII
-XLVII
-XLVII
-XLVII
-XVII
-XVII
-XVII
-XVII
-XVII
-XVII
-XVII
-(XV, XVI,2) XVII
-XXVII
-XXVII
-XXVII
-XXVII
-XXVII
-XXVII
-XXVII
-XXVII
-XXXVII
-XXXVII
-XXXVII
-XXXVII
-XXXVII
-XXXVII
-XXXVII
-XII
-XII
-XII
-XII
-XII
-XII
-XII
-XII
-XXII
-XXII
-XXII
-XXII
-XXII
-XXII
-XXII
-XXII
-XXXII
-XXXII
-XXXII
-XXXII
-XXXII
-XXXII
-XXXII
-XXXII
-XLI
-XLI
-XLI
-XLI
-XLI
-XLI
+a gulf has gaped... Says Tanya:  I
 I'd not have known you, therefore I
 and, with my Eugene, so have I.
 It's time she went. But what can I
 the poet's only theme is  I.''
 All in good time, on each point I
 In stead of happiness, say I,
-II
-II
-II
-II
-II
-II
-II
-III
-III
-III
-III
-III
-III
-III
-(I, II, III, IV, V, VI,1) VII
-LI
-LI
-LI
-LI
-LVI
-VI
-VI
-VI
-VI
-VI
-VI
-VI
-XLVI
-XLVI
-XLVI
-XLVI
-XLVI
-XVI
-XVI
-XVI
-XVI
-XVI
-XVI
-XVI
-XXVI
-XXVI
-XXVI
-XXVI
-XXVI
-XXVI
-XXVI
-XXVI
-XXXVI
-XXXVI
-XXXVI
-XXXVI
-XXXVI
-XXXVI
-XXXVI
-a gulf has gaped... Says Tanya:  I
-XI
-XI
-XI
-XI
-XI
-XI
-XI
-XI
-XXI
-XXI
-XXI
-XXI
-XXI
-XXI
-XXI
-XXI
-XXXI
-XXXI
-XXXI
-XXXI
-XXXI
-XXXI
-XXXI
-XXXI
-L
-L
-L
-L
-XL
-XL
-XL
-XL
-XL
-XL
-(XXXIX,2) XL
-V
-V
-V
-V
-V
-V
-V
-IV
-IV
-IV
-IV
-IV
-IV
-IV
-LIV
-LIV
-XLIV
-XLIV
-XLIV
-XLIV
-XLIV
-XLIV
-XIV
-XIV
-XIV
-XIV
-XIV
-XIV
-XIV
-XXIV
-XXIV
-XXIV
-XXIV
-XXIV
-XXIV
-XXIV
-XXIV
-XXXIV
-XXXIV
-XXXIV
-XXXIV
-XXXIV
-XXXIV
-XXXIV
-XXXIV
-LV
-LV
-XLV
-XLV
-XLV
-XLV
-XLV
-XLV
-(XIII, XIV,) XV
-XV
-XV
-XV
-XV
-XV
-XV
-XXV
-XXV
-XXV
-XXV
-XXV
-XXV
-XXV
-XXV
-XXXV
-XXXV
-XXXV
-XXXV
-XXXV
-XXXV
-XXXV
-XXXV
-X
-X
-X
-X
-X
-X
-(IX,2) X
-IX
-IX
-IX
-IX
-IX
-IX
-LIX
-XLIX
-XLIX
-XLIX
-XLIX
-XIX
-XIX
-XIX
-XIX
-XIX
-XIX
-XIX
-XIX
-XXIX
-XXIX
-XXIX
-XXIX
-XXIX
-XXIX
-XXIX
-XXIX
-XXXIX
-XXXIX
-XXXIX
-XXXIX
-(XXXVIII,2) XXXIX
-(XXXVIII) XXXIX
-(VIII,2 IX,) X
-LX
-XX
-XX
-XX
-XX
-XX
-XX
-XX
-XX
-XXX
-XXX
-XXX
-XXX
-XXX
-XXX
-XXX
-XXX
 have gnawed our bridges, and the flea
 diversely urging the same plea,
  O Russia!
  Moscow, loved daughter of Russia,
 Friends of my Ruslan and Lyudmila,
 in Adam Smith was his diploma;
+I too  when I recall Svetlana5
+and melancholy as Svetlana,2
  thou, my Svetlana!
 then sudden fear attacked Tatyana...
 Onegin's Letter to Tatyana
@@ -6666,6 +5509,7 @@ to blow his brains out, but in stead
 His wife, just like Tatyana, had
 on Richardson gone raving mad.
 to drive the swooning senses mad;
+with amber pipes from Tsaregrad;12
 you're really going? Well, I'm sad.
 his transports, and the marriage-bed
 and doctors, he'd have died in bed.
@@ -7465,6 +6309,7 @@ Tatyana groaned above the tide;
 that I prefer to Champagne's tide;
 And now the door is opened wide,
 raised nose and shoulders high and wide
+the fools who sparkle far and wide,6
 of every funeral far and wide;
 tranquillity, and solitude 
 set to well-known children's glee:
@@ -7486,6 +6331,7 @@ or else, from far off, he could see
 light dreams for new ones... so we see
 perhaps, though Phoebus warns, I'll see
 Onegin too  and there to see,
+kept asking: "shall I live to see"...''
 becomes a horse for all to see;
 at first, with God knows whom to see,
 and put his glasses on to see
@@ -7687,6 +6533,7 @@ scarce out of bibs, already fickle,
 fresh from the cot, an infant pickle,
 he laughs  they all begin to chuckle;
 He nods  they start to fuss and truckle;
+and all the works of Fontanelle16 
  Nasce una gente a cui 'l morir non dole.
 too pale, too thin, but on the whole
 for happiness  that alien role.
@@ -7711,6 +6558,7 @@ and glumly serves the medicine bottle,
 solemn, too long compelled to throttle
 And the sly baseness, fit to throttle,
 dons of Epicurean rule,
+he read of course the sceptic Bayle15
 he killed eight years in such a style,
 that even so my wretched style
 in sensible old-fashioned style.
@@ -7813,9 +6661,9 @@ She folds the page, lays down the plume.,
 that thievish mouths cannot consume
 with the pink glow the snows assume
 the strain of Tasso's octave-rhyme!
-I own it: tender Parny's12 rhyme
 the youthful votary of rhyme
 I need to rest from all this rhyme:
+I own it: tender Parny's12 rhyme
 the girls sing out the ancient rhyme:
 love's melting dreams shall fill my rhyme,
 our modern Russia's plague and bane.
@@ -7847,6 +6695,7 @@ all point at her, and all combine
 and yet by Vergil or Racine
 and wore his dressing-gown to dine.
 Vladimir Lensky. Quick, let's dine!
+Clarissa, Julie, or Delphine6 
 with three roan horses in a line
 may then amuse my glad decline.
 a novel on the established line
@@ -8156,6 +7005,7 @@ beside unfinished lines, a suite
 Enough I've wandered in the suite
 he stalked the drawing-rooms, remote
 and in her unconsidered note
+3 See Chapter Three, note 13.
 translated only the first part of the famous verse.'' Pushkin's note.
 that's the morass, I beg you note,
 still filled with Eugene, Tanya wrote,
@@ -8201,8 +7051,8 @@ what wings our first successes gave!
 who early died as die the brave'' 
 as he descended to the grave.
  This is Vladimir Lensky's grave
-4 See note 1 to Chapter Five.
 Chapter Five
+4 See note 1 to Chapter Five.
 there'll be a fight. For that I give
 promptly had nothing left to give.
 is this then what you can't forgive?
@@ -8294,8 +7144,8 @@ of many distant lands he sang
 and your alas-ing and alack-ing
 the bliss that fills me when your throbbing,
 a suite of elegies that, throbbing,
-So you, inspired Yazýkov,4 sobbing
 How heavy, and how near to sobbing,
+So you, inspired Yazýkov,4 sobbing
 each news of her he'd been imbibing 
 his style breathed love, and not the gibing
 had fortune blest me by prescribing
@@ -8727,10 +7577,10 @@ that lady the hostess was greeting,
 there never fails a kindly greeting,
 a story that still wants completing;
 Zaretsky, engineer-in-waiting,
-that there his friend Kavérin's5 waiting;
 Hours pass; no answer; waiting, waiting.
 the gallery claps  it's bored with waiting 
 We too shall find our hour is waiting;
+that there his friend Kavérin's5 waiting;
 flows and reverberates. Reciting,
 Vladimir shuts the book, for writing
 Three whole hours, at the least accounting,
@@ -8814,7 +7664,6 @@ So went his sermon. Almost dying,
 And yet, although it's past conveying,
 and some were even testifying
 yes, in that spring-time, in low-lying
-and captive girls, by Salgir20 lying.
 dead ash sets no more sparks a-flying;
 In fact one day a note came flying
 By now the shades of night are flying,
@@ -8822,6 +7671,7 @@ to lift her skirt up; still she's flying,
 through heaven's expanse serenely flying,
 by mist of tears, without replying
 Two weeks the matchmaker was plying
+and captive girls, by Salgir20 lying.
 But he's mistaken: Eugene's lying
 soon, infidelity proved cloying,
 else, having found his pleasure cloying,
@@ -8957,6 +7807,7 @@ of neighbouring owners of the earth
 a seedling fallen in the earth.
 so fires of spring will bring to birth
 fragments of poems from the North,
+but I'm allergic to the North...1
 There once I too strolled back and forth:
 the abstracted poet would bring forth
 only to Eugene showed their worth;
@@ -9084,6 +7935,7 @@ Muse of the epic, bless my work!
 let no more such digressions lurk
 you made me drunk as one could ask!
 with draughts from love's enticing flask,
+6 Delphine, by Madame de Staël, 1805.
 she'd never tell them news or scandal
 over the modish word ideal,
 goodbye to you, my true ideal,
@@ -9099,14 +7951,15 @@ over his neighbour's plain memorial,
 Lensky, restored to his manorial
 two sisters who'd received the initial
 But let's return to our essential,
+it had its epigram-potential7...
 of other's thought  a splendid goal;
 be doomed to feel it: there's one goal
 his thoughts were on a distant goal:
 his Strasbourg pie, or point a moral,
 But he could draw a joking moral,
 so heartless and so detrimental,
-to bring across Lepage's4 mortal
 and to the vision of those mortal
+to bring across Lepage's4 mortal
 she can't; Evgeny's pushed the portal,
 By now the sledge is at the portal 
 I find myself no longer equal;
@@ -9354,6 +8207,7 @@ red wine in tumblers to the brim
 of evening, and those tears, the balm
 those walks amid the gloom and calm
 they while away the morning's calm.
+could not conceive how solemn Grimm13
 Tatyana! it's addressed... to whom?
 despite herself, is Lensky's doom;
 a humble cross, in woodland gloom,
@@ -9376,6 +8230,7 @@ dressed up a desperate egoism
 Semyón Petróvich, mean and glum,
 at soldier-husbands, and the drum.
 untirable, at sound of drum:
+and the derivative Knyazhnín:8
 epoch's portrayed, survived the ban,
 and feel once more emotion's ban.
 so, if we want to change, we can!
@@ -9425,6 +8280,7 @@ a marksman crouching in the green.
 and on the flames let fall unseen
 so virtuous that, no sooner seen,
 the hare who from afar has seen
+the jug of bilberry wine is seen.1
 and once forbidden fruit is seen,
 harboured by maidens of thirteen!
 a note from Lensky; in between
@@ -9553,10 +8409,13 @@ but I won't praise you  let me join
 the spring of honour, and the pin
 on which the world is doomed to spin.
  A humble sinner, Dimitry Larin,
+He was a good and simple barin;6
 drives home  and plunging deeper in,
+7 Melmoth the Wanderer, by C. R. Mathurin, 1820.
 Buyánov, my vivacious cousin,
 so often from her Moscow cousin
 on liquor, and on hay brought in,
+4 Hero of Mathilde, by Sophie Cottin, 1805.
 and entice a fellow in
 When we draw a fellow in,
 on a fast stallion from the Don,
@@ -9565,6 +8424,7 @@ In duels a pedantic don,
 by country freedom, rightful pardon
 3 A statuette of Napoleon.
 since, through the mist that dreams arise on,
+He looks, and answers:  Agafon.''4
 swaying the artless, waiting on
 he saw no point in staying on,
 yet people's malice and suspicion
@@ -9764,8 +8624,8 @@ field-work, and walks with inspiration,
 But come, thou youthful inspiration,
 A moment earlier, inspiration
 bitter-sweet glory's inspiration,
-of his Ochákov7 decoration!
 with careful schemes of decoration
+of his Ochákov7 decoration!
 with fond caress? whose adoration
 Though belles had lost his adoration,
 When progress and amelioration
@@ -10206,6 +9066,8 @@ would fill Tatyana from afar
 when we see him from afar,
 had been for ever borne off far
 no, Tanya's more endearing far.
+the lover of Julie Wolmar,3
+and Malek Adel,4 de Linar,5
 and soon they bring her... a guitar
 In the dark sky, a shooting star
 and parted from her by their star.
@@ -10325,6 +9187,7 @@ long since, like brother linked to brother,
 became like brother knit to brother.
 for God's sake, that will do. But, brother,
 servant of God, and Brigadier.''
+8 Jean Sbogar, by Charles Nodier, 1818.
 and more than once the German baker,
  Necker
 Drive on, Andryushka! quicker, quicker!
@@ -10343,12 +9206,13 @@ and the young city-bred newcomer,
 it's like a vanishing newcomer 
 Gvozdín, exemplary farmer,
 Here with his wife, that bulging charmer,
+5 Lover of Valérie, by Madame de Krudener, 1803.
 but just to make the bargain keener,
 When we've retreated to the banner
 While under the connubial banner
 exercised, under lucre's banner,
-a novel in Lafontaine's8 manner...
 of passion's out, and its whole manner
+a novel in Lafontaine's8 manner...
  Here in the winter he'd have dinner
 he fed on hope's deceptive dinner;
 I'll feed the journalists for dinner
@@ -10964,6 +9828,7 @@ Alas, it's not so hard to guess!
 it's not in him to bring me bliss.''
 evoke for you a sombre bliss;
 doubted of it, so lived in bliss.
+shine out and bring the world to bliss.  2
 the earlier griefs are what I miss.
 look here, as a provincial miss
 can lean on faith, who can dismiss
@@ -11357,6 +10222,7 @@ I'll save this blossom on the shoot,
 two pines have tangled at the root;
 shall not attack my lily's root;
 no spark of fun in all its rot!
+Madame de Staël, Bichat,13 Tissot,14
 to pass the evening. No? then tot
 and cared not what his daughter kept
 a young girl's looking-glass is kept.
@@ -11540,6 +10406,7 @@ humbly I heard your lesson out?
 With that, in tears, and quite worn out,
 Tatyana struggles to run out 
 to the Larins' had caused a spout
+her steppeland charms into a rout.3
 have pushed their frontiers further out,
 throw meadows into muddy rout,
 the household boys in noisy rout;
@@ -11553,12 +10420,14 @@ now disenchanted with the next,
 more and more bored by yearning's text,
 devouring Gibbon and Rousseau,
 of Richardson and of Rousseau.
+3 Julie, ou la nouvelle Héloise. by Rousseau, 1761.
 spoke words of hope? But who are you:
  Well, I won't hold you up or bore you;
 But now  oh God!  the thought of you,
 And now, my friends, I hear from you
 really more bearable to you
 Friendship, as I must own to you,
+"When will the devil come for you?"''
 But I'm denied this: all for you
 or something tenderer still, for you.
  You're off? why, there's a poet for you!''
@@ -11841,6 +10710,7 @@ treated his lessons as a ploy.
 brooding that is the lover's ploy.
 How many times I made a toy
 never come and like a spy
+in order daily, chez Véry,1
 spends light and darkness in the dreary
 on features known, but to that dreary,
 across to her consort a weary
@@ -11855,12 +10725,12 @@ Alas, Eugene beyond all query
 How long he'd been here, was her query,
 have your fill of revelry!
 before him roast beef, red and gory,
-I meant to paint, with Alban's8 glory,
 fortune, and dignity, and glory,
  as sung of old, in years of glory,
 and leave no faint footprint of glory...
 there Didelot10 crowned himself with glory:
  To me, Onegin, all this glory
+I meant to paint, with Alban's8 glory,
 and pâté, Strasbourg's deathless glory,
 once more Corneille's majestic story;
 at fifty, would prolong the story

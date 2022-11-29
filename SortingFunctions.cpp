@@ -7,7 +7,7 @@ void SortFromBeginning(strings_inform* onegin_strings, buffer* onegin_text) {
 
     ASSERT(onegin_text != nullptr);
 
-    qsort(onegin_strings, onegin_text->number_of_strings, sizeof(onegin_strings[0]),compare);
+    qsort(onegin_strings, onegin_text->number_of_strings, sizeof(onegin_strings[0]),Compare);
 }
 
 
@@ -17,10 +17,10 @@ void SortFromEnd(strings_inform* onegin_strings, buffer* onegin_text) {
 
     ASSERT(onegin_text != nullptr);
 
-    qsort(onegin_strings, onegin_text->number_of_strings, sizeof(onegin_strings[0]), backward_compare);
+    qsort(onegin_strings, onegin_text->number_of_strings, sizeof(onegin_strings[0]), Backward_Compare);
 }
 
-int backward_compare (const void* string1, const void* string2) {
+int Backward_Compare (const void* string1, const void* string2) {
 
     ASSERT(string1 != nullptr);
 
@@ -40,13 +40,13 @@ int backward_compare (const void* string1, const void* string2) {
 
     while (size1 > 0 && size2 > 0) {
 
-        while (notAlpha(*pt1) && size1 > 0) {
+        while (NotAlpha(*pt1) && size1 > 0) {
 
             size1--;
             pt1--;
         }
 
-        while (notAlpha(*pt2) && size2 > 0) {
+        while (NotAlpha(*pt2) && size2 > 0) {
 
             size2--;
             pt2--;
@@ -72,22 +72,8 @@ int backward_compare (const void* string1, const void* string2) {
     return *pt1 - *pt2;
 }
 
-void swap (char** string1, char** string2) {
 
-    ASSERT(string1 != nullptr);
-
-    ASSERT(string2 != nullptr);
-
-    char* save_the_line = nullptr;
-
-    save_the_line = *string1;
-
-    *string1 = *string2;
-
-    *string2 = save_the_line;
-}
-
-int compare (const void* string1, const void* string2) { 
+int Compare (const void* string1, const void* string2) { 
 
     ASSERT(string1 != nullptr);
 
@@ -99,7 +85,7 @@ int compare (const void* string1, const void* string2) {
 
     while (*pt1 && *pt2) {
 
-        while (notAlpha(*pt1)) {
+        while (NotAlpha(*pt1)) {
 
             if (!*pt1) {
 
@@ -108,7 +94,7 @@ int compare (const void* string1, const void* string2) {
             pt1++;
         }
 
-        while (notAlpha(*pt2)) {
+        while (NotAlpha(*pt2)) {
 
             if (!*pt2) {
 
@@ -132,7 +118,7 @@ int compare (const void* string1, const void* string2) {
     return *pt1 - *pt2;
 }
 
-bool notAlpha (char c) {
+bool NotAlpha (char c) {
 
     if (strchr(forbidden_symbols, c) != nullptr) {
 
@@ -141,6 +127,56 @@ bool notAlpha (char c) {
     }
 
     return false;
+}
+
+void PrintOriginalText(buffer* onegin_text) {
+
+    ASSERT(onegin_text->buf != nullptr);
+
+    FILE* OneginSort = fopen("SortOnegin.txt", "a");
+
+    ASSERT(OneginSort != nullptr);
+
+    fprintf(OneginSort, "***********************************************************\n");
+    fprintf(OneginSort, "             %s\n", "Original Text");
+    fprintf(OneginSort, "***********************************************************\n\n\n");
+
+    PutStringsInFile(&OneginSort, onegin_text);
+
+    ASSERT(fclose(OneginSort) == 0);
+}
+
+void PutStringsInFile(FILE** OneginSort, buffer* onegin_text) {
+
+    char* pt_buf = onegin_text->buf;
+
+    char* is_end_of_string = onegin_text->buf;
+
+    int strings = 0;
+
+    for (size_t string_size = 0; strings < onegin_text->number_of_strings; string_size++, is_end_of_string++) {
+         
+        if (*is_end_of_string == '\0') {
+
+            fprintf(*OneginSort, "%s\n", pt_buf);
+
+            pt_buf += string_size;
+
+            strings++;
+
+            string_size = 0;
+
+            is_end_of_string++;
+
+            while (*is_end_of_string == '\n') {
+
+                is_end_of_string++;
+            }
+
+            pt_buf = is_end_of_string;
+
+        }
+    }
 }
 
 void PrintSortingText(strings_inform* onegin_strings, buffer* onegin_text, const char* where_to_sort) {
@@ -159,10 +195,33 @@ void PrintSortingText(strings_inform* onegin_strings, buffer* onegin_text, const
 
     for (size_t string_number = 0; string_number < onegin_text -> number_of_strings; string_number ++) {
 
-        fprintf(OneginSort, "%s\n", onegin_strings[string_number].string);
+        if (!SkipString(onegin_strings[string_number].string)) {
+
+            fprintf(OneginSort, "%s\n", onegin_strings[string_number].string);
+        }
     }
 
     fprintf(OneginSort, "\n\n\n");
 
     ASSERT(fclose(OneginSort) == 0);
+}
+
+int SkipString(char* string) {
+
+    ASSERT(string != nullptr);
+
+    char* pt = string;
+
+
+    while (NotAlpha(*pt) || isdigit(*pt) || *pt == 'X' || *pt == 'L' || *pt == 'I' || *pt == 'V') {
+
+        pt++;
+
+        if (!*pt) {
+
+            return 1; 
+        }
+    }
+
+    return 0;
 }

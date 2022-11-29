@@ -14,7 +14,7 @@ void Destroyer(strings_inform* onegin_strings, buffer*  onegin_text) {
     onegin_text -> number_of_strings = 0;
 }
 
-long getFileSize(const char *file) {
+long GetFileSize(const char *file) {
     
     ASSERT(file != nullptr);
 
@@ -36,7 +36,7 @@ void ReadFile(const char* name_file, buffer* onegin_text) {
 
     ASSERT(stream != nullptr);
 
-    size_t tekst_size = getFileSize(name_file) + 2;
+    size_t tekst_size = GetFileSize(name_file) + 2;
 
     onegin_text -> buf = (char*) calloc(tekst_size, sizeof(char));
 
@@ -136,51 +136,4 @@ strings_inform* Constructor(buffer* onegin_text){
     onegin_text->number_of_strings = not_empty_strings;
 
     return onegin_strings;
-}
-
-
-void PrintOriginalText(buffer* onegin_text) {
-
-    ASSERT(onegin_text->buf != nullptr);
-
-    char* pt_buf = onegin_text->buf;
-
-    char* is_end_of_string = onegin_text->buf;
-
-    FILE* OneginSort = fopen("SortOnegin.txt", "a");
-
-    ASSERT(OneginSort != nullptr);
-
-    fprintf(OneginSort, "***********************************************************\n");
-    fprintf(OneginSort, "             %s\n", "Original Text");
-    fprintf(OneginSort, "***********************************************************\n\n\n");
-
-    int strings = 0;
-
-    for (size_t i = 0; strings < onegin_text->number_of_strings; i++, is_end_of_string++) {
-
-         
-        if (*is_end_of_string == '\0') {
-
-            fprintf(OneginSort, "%s\n", pt_buf);
-
-            pt_buf += i;
-
-            strings++;
-
-            i = 0;
-
-            is_end_of_string++;
-
-            while (*is_end_of_string == '\n') {
-
-                is_end_of_string++;
-            }
-
-            pt_buf = is_end_of_string;
-
-        }
-    }
-
-    ASSERT(fclose(OneginSort) == 0);
 }
