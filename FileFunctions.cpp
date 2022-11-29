@@ -117,11 +117,15 @@ strings_inform* Constructor(buffer* onegin_text){
             buf_pointer += symbols_in_one_string + 1;
             
             symbols_in_one_string = 0;
+            
+            is_eof++;
 
-            if (*(is_eof + 1) == '\n') {
+            while (*is_eof == '\n') {
 
-                SkipSimbolsEndOfString(&is_eof, &buf_pointer);  
-            }       
+                is_eof++;
+            }
+
+            buf_pointer = is_eof;       
         }       
     }
 
@@ -134,15 +138,49 @@ strings_inform* Constructor(buffer* onegin_text){
     return onegin_strings;
 }
 
-void SkipSimbolsEndOfString(char** is_eof, char** buf_pointer) {
 
-        int counter = 0;
+void PrintOriginalText(buffer* onegin_text) {
 
-        while (*(++(*is_eof)) == '\n'){
-            counter ++;
+    ASSERT(onegin_text->buf != nullptr);
+
+    char* pt_buf = onegin_text->buf;
+
+    char* is_end_of_string = onegin_text->buf;
+
+    FILE* OneginSort = fopen("SortOnegin.txt", "a");
+
+    ASSERT(OneginSort != nullptr);
+
+    fprintf(OneginSort, "***********************************************************\n");
+    fprintf(OneginSort, "             %s\n", "Original Text");
+    fprintf(OneginSort, "***********************************************************\n\n\n");
+
+    int strings = 0;
+
+    for (size_t i = 0; strings < onegin_text->number_of_strings; i++, is_end_of_string++) {
+
+         
+        if (*is_end_of_string == '\0') {
+
+            fprintf(OneginSort, "%s\n", pt_buf);
+
+            pt_buf += i;
+
+            strings++;
+
+            i = 0;
+
+            is_end_of_string++;
+
+            while (*is_end_of_string == '\n') {
+
+                is_end_of_string++;
+            }
+
+            pt_buf = is_end_of_string;
+
         }
+    }
 
-        (*is_eof)--;
-
-        *buf_pointer += counter;   
+    ASSERT(fclose(OneginSort) == 0);
 }

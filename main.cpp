@@ -10,8 +10,6 @@ int main() {
     ReadFile("onegin.txt", &onegin_text);
 
     onegin_strings = Constructor(&onegin_text);
-
-    //strings_inform* onegin_strings_copy = onegin_strings;
  
     SortFromBeginning(onegin_strings, &onegin_text);
 
@@ -21,7 +19,7 @@ int main() {
 
     PrintSortingText(onegin_strings, &onegin_text, "SORT FROM THE END OF THE LINES");
 
-    //PrintSortingText(onegin_strings_copy, &onegin_text, "ORIGINAL TEXT");
+    PrintOriginalText(&onegin_text);
 
     Destroyer (onegin_strings, &onegin_text);
 

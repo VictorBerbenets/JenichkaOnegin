@@ -50,8 +50,6 @@ void ReadFile(const char* name_file, buffer* onegin_text);
 
 void GetNumberOfStrings(buffer* onegin_text);
 
-void SkipSimbolsEndOfString(char** is_eof, char** buf_pointer);
-
 void SortFromBeginning(strings_inform* onegin_strings, buffer* onegin_text);
 
 void PrintSortingText(strings_inform* onegin_strings, buffer* onegin_text, const char* where_to_sort);
@@ -62,11 +60,13 @@ int compare (const void* string1, const void* string2);
 
 int backward_compare (const void* string1, const void* string2);
 
-bool notAlpha (char c);
-
 void Destroyer(strings_inform* onegin_strings, buffer*  onegin_text);
 
+void PrintOriginalText(buffer* onegin_text);
+
 void swap (char** string1, char** string2);
+
+bool notAlpha (char c);
 
 
 #endif
