@@ -17,31 +17,26 @@ void SortFromEnd(strings_inform* onegin_strings, buffer* onegin_text) {
 
     ASSERT(onegin_text != nullptr);
 
-    for (size_t i = 0; i < onegin_text->number_of_strings; i++) {
-
-    for (size_t j = i + 1; j < onegin_text -> number_of_strings; j++){
-
-        if (backward_compare(onegin_strings[i].string, onegin_strings[j].string) > 0){
-
-            swap(&onegin_strings[i].string, &onegin_strings[j].string);
-        }
-    }
-}
+    qsort(onegin_strings, onegin_text->number_of_strings, sizeof(onegin_strings[0]), backward_compare);
 }
 
-int backward_compare (char* string1, char* string2) {
+int backward_compare (const void* string1, const void* string2) {
 
     ASSERT(string1 != nullptr);
 
     ASSERT(string2 != nullptr);
 
-    int size1 = strlen(string1);
+    char* pt1 = ((strings_inform*) string1)->string;
 
-    int size2 = strlen(string2);
+    char* pt2 = ((strings_inform*) string2)->string;
 
-    char* pt1 = string1 + size1;
+    long size1 = strlen(pt1);
 
-    char* pt2 = string2 + size2;
+    long size2 = strlen(pt2);
+
+    pt1 = strchr(pt1, '\0');
+
+    pt2 = strchr(pt2, '\0');
 
     while (size1 > 0 && size2 > 0) {
 
@@ -92,7 +87,7 @@ void swap (char** string1, char** string2) {
     *string2 = save_the_line;
 }
 
-int compare (const void* string1, const void* string2) { //int compare (char* string1, char* string2)
+int compare (const void* string1, const void* string2) { 
 
     ASSERT(string1 != nullptr);
 

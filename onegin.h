@@ -60,12 +60,13 @@ void SortFromEnd(strings_inform* onegin_strings, buffer* onegin_text);
 
 int compare (const void* string1, const void* string2);
 
-int backward_compare (char* string1, char* string2);
+int backward_compare (const void* string1, const void* string2);
 
 bool notAlpha (char c);
 
 void Destroyer(strings_inform* onegin_strings, buffer*  onegin_text);
 
 void swap (char** string1, char** string2);
+
 
 #endif
