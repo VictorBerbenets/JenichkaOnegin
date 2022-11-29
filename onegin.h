@@ -45,8 +45,6 @@ struct strings_inform{
 
 strings_inform* Constructor(buffer* onegin_text);
 
-void F(buffer* onegin_text, strings_inform** onegin_strings);
-
 long GetFileSize(const char *file);
 
 void ReadFile(const char* name_file, buffer* onegin_text);
